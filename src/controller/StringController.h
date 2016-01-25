@@ -13,6 +13,8 @@ class StringController {
 private:
 
 public:
+	void subStringTwo();
+	void subString();
 	void emptyString();
 	void compareString();
 	void stringLength();

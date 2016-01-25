@@ -30,11 +30,25 @@ void StringController :: compareString() {
 void StringController :: emptyString() {
 	string name = "";
 	if(name.empty()) {
-		cout << "The name string is empty";
+		cout << "The name string is empty\n";
 	}
 	else {
-		cout << "The name string is not empty" << endl;
+		cout << "The name string is not empty\n" << endl;
 	}
+}
+
+//Fourth method used
+void StringController :: subString() {
+	string longString = "ebfeiowufbwiujefnsubfnirwub";
+	string shortString = longString.substr(4, 8);
+	cout << "The string use to be" + longString + " but now it's " + shortString << endl;
+}
+
+//Fifth method used
+void StringController :: subStringTwo() {
+	string fullName = "Tristan Woodhouse Gaebler";
+	string lastName = fullName.substr(17);
+	cout << "My full name is " + fullName + " ,but my last name is " + lastName << endl;
 }
 
 void StringController :: start() {
@@ -42,6 +56,8 @@ void StringController :: start() {
 	stringLength(); //.length() method
 	compareString(); //.compare method
 	emptyString(); //.empty() method
+	subString(); //.substr(start, end) method
+	subStringTwo(); //.substr(start) method
 
 }
 
