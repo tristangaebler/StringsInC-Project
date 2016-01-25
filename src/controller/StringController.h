@@ -13,6 +13,7 @@ class StringController {
 private:
 
 public:
+	void atString();
 	void subStringTwo();
 	void subString();
 	void emptyString();

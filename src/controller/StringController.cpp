@@ -51,6 +51,17 @@ void StringController :: subStringTwo() {
 	cout << "My full name is " + fullName + " ,but my last name is " + lastName << endl;
 }
 
+//Sixth method used
+void StringController :: atString() {
+	string school = "Alta High School";
+	cout << school + "\n" << endl;
+	string newSchool = school[4];
+	cout << school + "\n" << endl;
+	string newerSchool = school.at(3);
+	cout << school + "\n" << endl;
+
+}
+
 void StringController :: start() {
 
 	stringLength(); //.length() method
@@ -58,6 +69,7 @@ void StringController :: start() {
 	emptyString(); //.empty() method
 	subString(); //.substr(start, end) method
 	subStringTwo(); //.substr(start) method
+	atString(); //.at() and [] used
 
 }
 
