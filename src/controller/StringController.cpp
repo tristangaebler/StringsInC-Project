@@ -53,12 +53,12 @@ void StringController :: subStringTwo() {
 
 //Sixth method used
 void StringController :: atString() {
-	string school = "Alta High School";
+	string school = "AltaHighSchool";
 	cout << school + "\n" << endl;
-	string newSchool = school[4];
-	cout << school + "\n" << endl;
-	string newerSchool = school.at(3);
-	cout << school + "\n" << endl;
+	char newSchool = school[2];
+	cout << newSchool << endl;
+	char otherNewSchool = school.at(8);
+	cout << otherNewSchool << endl;
 
 }
 
