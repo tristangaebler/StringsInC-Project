@@ -13,7 +13,11 @@ class StringController {
 private:
 
 public:
+	void emptyString();
+	void compareString();
+	void stringLength();
 	void start();
+
 };
 
 
